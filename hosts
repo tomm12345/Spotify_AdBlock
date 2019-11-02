@@ -1,0 +1,45 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+
+#[Spotify Ad-Block Hosts] 
+0.0.0.0 b.scorecardresearch.com
+0.0.0.0 bounceexchange.com
+0.0.0.0 media-match.com
+0.0.0.0 omaze.com
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 s0.2mdn.net
+0.0.0.0 spclient.wg.spotify.com
+0.0.0.0 v.jwpcdn.com
+0.0.0.0 weblb-wg.gslb.spotify.com
+0.0.0.0 www.omaze.com
+127.0.0.1 media-match.com
+127.0.0.1 adclick.g.doublecklick.net
+127.0.0.1 googleads.g.doubleclick.net
+127.0.0.1 http://www.googleadservices.com
+127.0.0.1 pagead2.googlesyndication.com
+127.0.0.1 desktop.spotify.com
+127.0.0.1 pubads.g.doubleclick.net
+127.0.0.1 audio2.spotify.com
+127.0.0.1 crashdump.spotify.com
+127.0.0.1 adeventtracker.spotify.com
+127.0.0.1 log.spotify.com
+127.0.0.1 analytics.spotify.com
+127.0.0.1 ads-fa.spotify.com
+127.0.0.1 audio-ec.spotify.com
+127.0.0.1 heads-ec.spotify.com
+127.0.0.1 prod.spotify.map.fastlylb.net
+127.0.0.1 sto3.spotify.com
+127.0.0.1 spclient.wg.spotify.com
+127.0.0.1 upgrade.spotify.com
+# Added by Docker Desktop
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
