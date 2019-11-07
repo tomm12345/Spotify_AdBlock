@@ -7,14 +7,22 @@ long mixes, playlists or podcasts which are the best part of Spotify too!
 
 For running the script. Follow these steps:-
 
-1. Make the host file writable without sudo, this is so that the connection to adservers of spotify can be blocked.
+1.
+
+Clone the repo
+
+```
+git clone https://github.com/siddsax/Spotify_AdBlock/
+```
+
+2. Make the host file writable without sudo, this is so that the connection to adservers of spotify can be blocked.
 
 ```
 sudo chmod a+rwx  /private/etc/hosts  # for mac
 sudo chmod a+rwx  /etc/hosts # for Linux
 ```
 
-2. Run the script to block ads
+3. Run the script to block ads
 
 ```
 python Spotify_AdBlock/main.py
