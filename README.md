@@ -7,9 +7,7 @@ long mixes, playlists or podcasts which are the best part of Spotify too!
 
 For running the script. Follow these steps:-
 
-1.
-
-Clone the repo
+1. Clone the repo
 
 ```
 git clone https://github.com/siddsax/Spotify_AdBlock/
