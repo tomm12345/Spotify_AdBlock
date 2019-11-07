@@ -22,4 +22,7 @@ python Spotify_AdBlock/main.py
 
 In case you observe stoppage in music wait for some time or just re-run the script. In case it doesn't work even after doing 
 these steps. Close the script and wait for the music to start, when it does, start running the script back. The latter may 
-result in one burst of Ads but they should not appear afterwards.
+result in one burst of Ads but they should not appear afterwards. 
+
+If the stops in music happen more frequently, try reducing `timeNoAd` and on the opposite end if audio ads still come in 
+try reducing `timeAd`. These depend a bit on internet speeds, high speed means better to have smaller `timeAd` and slower speeds mean smaller `timeNoAd` or larger `timeAd`.  
